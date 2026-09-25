@@ -51,6 +51,25 @@
             color: #0099b5; /* Cor azul claro/ciano da logo */
         }
 
+        /* Estilo do Contato */
+        .contato {
+            margin-top: 40px;
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+
+        .contato a {
+            color: #0099b5;
+            text-decoration: none;
+            font-weight: 600;
+            transition: opacity 0.3s ease;
+        }
+
+        .contato a:hover {
+            opacity: 0.7;
+            text-decoration: underline;
+        }
+
         /* Ajustes para celular */
         @media (max-width: 600px) {
             .logo {
@@ -59,6 +78,10 @@
             }
             .mensagem {
                 font-size: 1.1rem;
+            }
+            .contato {
+                font-size: 1rem;
+                margin-top: 30px;
             }
         }
     </style>
@@ -73,6 +96,9 @@
         <p class="mensagem">Uma nova marca, um novo conceito! <span class="destaque">Em breve!</span></p>
         <p class="mensagem">A new brand, a new concept! <span class="destaque">Coming soon!</span></p>
         <p class="mensagem">¡Una nueva marca, un nuevo concepto! <span class="destaque">¡Muy pronto!</span></p>
+
+        <!-- Contato -->
+        <p class="contato">Contato: <a href="mailto:contato@orbicula.com">contato@orbicula.com</a></p>
     </div>
 
 </body>
