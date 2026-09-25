@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orbícula - Em breve</title>
+    <style>
+        /* Configurações básicas para centralizar tudo na tela */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fcfcfc; /* Fundo quase branco para destacar a logo */
+            color: #0b3c49; /* Cor do texto baseada no azul escuro da logo */
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+        }
+
+        /* Estilo da Logo */
+        .logo {
+            max-width: 100%;
+            height: auto;
+            width: 500px; /* Tamanho máximo da logo */
+            margin-bottom: 40px;
+        }
+
+        /* Estilo dos Textos */
+        .mensagem {
+            font-size: 1.5rem;
+            font-weight: 300;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+        }
+
+        .destaque {
+            font-weight: 600;
+            color: #0099b5; /* Cor azul claro/ciano da logo */
+        }
+
+        /* Ajustes para celular */
+        @media (max-width: 600px) {
+            .logo {
+                width: 90%;
+                margin-bottom: 30px;
+            }
+            .mensagem {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Substitua 'logo.png' pelo nome exato do arquivo da sua imagem -->
+        <img src="logo.png" alt="Orbícula Logo" class="logo">
+
+        <!-- Mensagens em Português, Inglês e Espanhol -->
+        <p class="mensagem">Uma nova marca, um novo conceito! <span class="destaque">Em breve!</span></p>
+        <p class="mensagem">A new brand, a new concept! <span class="destaque">Coming soon!</span></p>
+        <p class="mensagem">¡Una nueva marca, un nuevo concepto! <span class="destaque">¡Muy pronto!</span></p>
+    </div>
+
+</body>
+</html>
